@@ -355,12 +355,40 @@ body
     width: 90%;
 }
 
-.cert > h2
+.my-education .cert .certificate > h3
 {
-    margin: 60px 0;
-    min-height: 100px;
+    margin-top: 80px;
+    min-height: 30px;
+}
+.my-education .cert .certificate > span{display: block;font-weight: bold}
+.my-education .cert .certificate > span:first-of-type
+{
+    color:#999;
 }
 
+.my-education .cert .certificate > span:last-of-type
+{
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #228000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.my-education .cert .certificate hr
+{
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+}
+
+.my-education .cert .certificate p{
+    line-height: 1.7;
+    color:#555;
+}
 /* End Education */
 
 
@@ -384,6 +412,7 @@ body
     margin: 15px 0 20px 40px;
     color: #666;
     font-weight: bold;
+
 }
 
 .my-experience .experience p:last-of-type
@@ -401,7 +430,7 @@ body
     width: 90%;
 }
 
-.exp > h2
+.exp > h3
 {
     margin: 60px 0;
     min-height: 100px;
