@@ -445,12 +445,46 @@ body
 {
     background:#F2F2F2;
     text-align: center;
-    padding: 30 0;
-    
-    margin: 10px 0;
-    
-    height: 120px;
+    padding: 30px 0;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    height: auto;
 }
+.testmonials q{
+    line-height: 1.8;
+    font-weight: bold;
+    font-style: italic;
+    color: #888;
+}
+
+.testmonials p{
+    font-weight: bold;
+    color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.testmonials h3{color: #666}
+.testmonials ul{
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.testmonials ul li{
+    height: 15px;
+    width: 15px;
+    border: solid 2px #228000;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.testmonials ul li.active,
+.testmonials ul li:hover
+{background-color: #228000}
+
 
 /* End testmonials */
 
