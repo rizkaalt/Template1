@@ -536,7 +536,9 @@ body
 {
     background-color: #252F31;
     overflow:hidden;
-    margin: 50px 0 70px 0;
+    box-shadow: 8px black;
+    border-top-style: solid 2px;
+    
 }
 
 .contact h2
@@ -630,11 +632,15 @@ body
     
 }
 
-.footer ul li{display: inline-block;text-align: center;}
+.footer ul li{
+    display: inline-block;
+    text-align: center;
+    padding-right: 4px;
+}
 
 .footer ul li img{
-    width: 40px;
-    height: 40px;    
+    width: 30px;
+    height: 30px;    
 }
 /* End footer */
 
