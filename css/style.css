@@ -536,22 +536,72 @@ body
 {
     background-color: #252F31;
     overflow:hidden;
+    margin: 50px 0 70px 0;
 }
 
 .contact h2
 {
     color:#FFF;
+    margin-left: 20px;
 }
 .contact p
 {
-    color:#6A6E71;
-   
+    color:#80ffff;
+    margin-left: 20px;
+    line-height: 1.7;
+    
 }
-.contact .info,
-.contact .form
-{
+.contact .info{
     width: 50%;
     float: left;
+    padding-top: 20px;
+}
+
+.contact .info address{
+    margin-left: 20px;
+    color: #80ffff;
+    margin-bottom: 50px;
+}
+.contact .form
+{
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    margin: 50px 0 70px 0;
+}
+
+.contact .form label{
+    display: block;
+    color: white;
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+.contact .form input[type="text"]
+{
+    width: 80%;
+    background-color: #80ffff;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.contact .form textarea{
+    width: 80%;
+    background-color: #80ffff;
+    padding: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.c-green-button{
+    background: none;
+    border: 2px solid #00cccc;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    width: 80%;
+    
 }
 
 /* End Contact me */
