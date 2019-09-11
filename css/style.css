@@ -560,7 +560,6 @@ body
 .contact .info address{
     margin-left: 20px;
     color: #80ffff;
-    margin-bottom: 50px;
 }
 .contact .form
 {
@@ -614,10 +613,28 @@ body
 
 .footer
 {
-    background:black;
+    overflow: hidden;
+    background:#009999;
     text-align: center;
-    color:#6A6E71; 
+    color:black;
+    font-weight: bold;
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-radius: 2px;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
     
+}
+
+.footer ul li{display: inline-block;text-align: center;}
+
+.footer ul li img{
+    width: 40px;
+    height: 40px;    
 }
 /* End footer */
 
@@ -628,6 +645,18 @@ body
     border: 2px solid #228000;
     padding: 15px 30px;
     font-weight: 700;
+}
+
+.contact-button{
+    background: none;
+    border: 2px solid #00cccc;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    width: 80%;
+    border-radius: 4px;
+    box-shadow: 2px;
 }
 
 /* End framework */
