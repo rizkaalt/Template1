@@ -237,7 +237,8 @@ body{margin: auto;height: 5000px;}
     
 }
 
-.contact h2{color:#FFF;margin-left: 20px;}
+.contact h2{color:#FFF;margin-left: 15px;display: inline-block;}
+.contact .info i{color: #80FFFF;display: inline;margin-left: 15px;}
 .contact p{color:#80ffff;margin-left: 20px;}
 .contact .info{width: 50%;padding-top: 20px;}
 .contact .info address{margin-left: 20px;color: #80ffff;}
