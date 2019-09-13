@@ -90,7 +90,7 @@ body{margin: auto;height: 5000px;}
 .about-me .info .hobbies {overflow: hidden;margin: 20px 0 0 40px}
 .about-me .info .hobbies .content{width: 50%;min-height: 100px;overflow: hidden;}
 .about-me .info .hobbies .content .icon{width:12%;margin-right:5%;}
-.about-me .info .hobbies .content .icon img{max-width: 100%;margin: 20px 10px 0 0;}
+.about-me .info .hobbies .content .icon i{max-width: 100%;margin:10px 0 0 0;color:#006400;}
 .about-me .info .hobbies .content .text{width:83%}
 /* End About me */
 
@@ -260,6 +260,7 @@ body{margin: auto;height: 5000px;}
     border-radius: 4px;
     box-shadow: 4px;
     word-spacing: 5px;
+    
 }
 .contact .form textarea{
     width: 80%;
