@@ -293,7 +293,9 @@ body{margin: auto;height: 5000px;}
 }
 .footer ul{list-style: none;padding-left: 0;display: inline-block;}
 .footer ul li{display: inline-block;text-align: center;padding-right: 4px;}
-.footer ul li img{width: 30px;height: 30px;}
+.footer ul a{font-style: none;}
+.footer .container ul a li i{color: antiquewhite;}
+.fa {color: black}
 /* End footer */
 
 /* Start framework */
@@ -315,6 +317,7 @@ body{margin: auto;height: 5000px;}
     border-radius: 4px;
     box-shadow: 2px
 }
+
 .fl-left{float: left;}
 p{line-height: 1.8;color: #888}
 h2{color: #5F632B;font-weight: bold;}
